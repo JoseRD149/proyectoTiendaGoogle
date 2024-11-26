@@ -40,4 +40,8 @@ ul{display: flex;
     height: 100%; 
     object-fit: cover; 
   }
-  .imagencentral{width:50px;}
+  .imagencentral{width:60%;
+}
+main{
+    display: flex;
+}
