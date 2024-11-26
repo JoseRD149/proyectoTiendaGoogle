@@ -27,18 +27,17 @@ ul{display: flex;
 }
 
 .burbujitas {
-    width: 100px; /* Tamaño del círculo */
-    height: 100px; /* Tamaño del círculo */
-    border-radius: 50%; /* Hace que el contenedor sea circular */
-    overflow: hidden; /* Asegura que la imagen no se salga del contenedor */
-    display: flex; /* Centra la imagen si es necesario */
+    width: 100px; 
+    height: 100px; 
+    border-radius: 50%; 
+    display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid #000; /* Opcional: borde del círculo */
-  }
+    border: 2px solid #000;}
 
   .burbujitas img {
-    width: 100%; /* Ajusta la imagen al círculo */
-    height: 100%; /* Asegura que se cubra completamente el círculo */
-    object-fit: cover; /* Ajusta la imagen para llenar el contenedor sin distorsionarse */
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
   }
+  .imagencentral{width:50px;}
