@@ -11,8 +11,12 @@ li{text-align: center;
     padding: 5px 5px 5px 5px;
     background-color:whitesmoke;
 }
-li:active{
+a:active{
     color:blue;
+}
+
+a{text-decoration:none;
+    color: gray;
 }
 ul li{
     list-style-type: none;
