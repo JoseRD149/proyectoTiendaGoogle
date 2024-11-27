@@ -27,7 +27,7 @@ ul{display: flex;
 }
 header{
     position: sticky;
-top: 20px;
+top: 0px;
 }
 .burbujitas {
     width: 100px; 
