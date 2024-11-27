@@ -1,16 +1,19 @@
 nav{
     width:100% ;
-    background-color:red ;
+    background-color:whitesmoke ;
     align-items:baseline ;
     justify-content: space-around;
     display:flex;
 }
-li{
+li{text-align: center;
+    margin: 0px 10px 0px 10px;
+    padding: 5px 5px 5px 5px;
     background-color: green;
 }
 ul li{
     list-style-type: none;
 }
 ul{display: flex;
+    width: 70%;
 
 }
