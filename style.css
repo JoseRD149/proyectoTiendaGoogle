@@ -29,6 +29,9 @@ header{
     position: sticky;
 top: 0px;
 }
+body{
+    margin: 0px;
+}
 .burbujitas {
     width: 100px; 
     height: 100px; 
@@ -58,5 +61,13 @@ top: 0px;
 
 main{
     display: flex;
+    width: 100%;
+}
+section .seccion1{
+    width: 20%;
+}section .seccion2{
+    width: 50%;
+}section .seccion3{
+    width: 30%;
 }
 /* @media only screen and (min-width: 768px){.burbujitas{width: 50%;}} */
