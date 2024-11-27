@@ -43,15 +43,18 @@ top: 20px;
     height: 100%; 
     object-fit: cover; 
   }
-  .imagencentral{width:60%;}
+  .imagencentral{
+    width:60%;
+}
     .colores{   width: 100px; 
         height: 100px; 
         border-radius: 50%; 
         display: flex;
         justify-content: center;
         align-items: center;
-        border: 2px solid #000
-        blackground color(srgb red green blue);}
+        border: 2px solid #000;
+        background-color: aliceblue;
+    }
 
 main{
     display: flex;
