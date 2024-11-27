@@ -1,7 +1,7 @@
 nav{
     width:100% ;
     background-color:whitesmoke ;
-    align-items:baseline ;
+    align-items:center ;
     justify-content: space-around;
     display:flex;
     color: gray;
@@ -14,7 +14,7 @@ li{text-align: center;
 a:active{
     color:blue;
 }
-.logo{width:10%;}
+.logo{width:2%;}
 a{text-decoration:none;
     color: gray;
 }
