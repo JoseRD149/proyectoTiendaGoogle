@@ -39,7 +39,9 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid #000;}
+    border: 2px solid #000;
+margin-bottom: 20%;
+}
 
   .burbujitas img {
     width: 100%; 
@@ -67,6 +69,8 @@ section .seccion1{
     width: 20%;
 }section .seccion2{
     width: 50%;
+    background-color: aliceblue;
+    border-radius: 20% none;
 }section .seccion3{
     width: 30%;
 }
