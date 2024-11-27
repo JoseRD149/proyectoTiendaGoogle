@@ -45,3 +45,4 @@ ul{display: flex;
 main{
     display: flex;
 }
+@media only screen and (min-width: 768px){.burbujitas{width: 50%;}}
