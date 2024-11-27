@@ -1,5 +1,10 @@
 nav{
     width:100% ;
     background-color:red ;
+    align-items:baseline ;
+    justify-content: space-around;
+    display:flex;
 }
 li{background-color: green;}
+ul li{list-style-type: none;
+display: flex;}
