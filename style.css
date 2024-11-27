@@ -14,7 +14,7 @@ li{text-align: center;
 a:active{
     color:blue;
 }
-
+.logo{width:10%;}
 a{text-decoration:none;
     color: gray;
 }
@@ -45,4 +45,4 @@ ul{display: flex;
 main{
     display: flex;
 }
-@media only screen and (min-width: 768px){.burbujitas{width: 50%;}}
+/* @media only screen and (min-width: 768px){.burbujitas{width: 50%;}} */
