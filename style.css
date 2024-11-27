@@ -5,6 +5,12 @@ nav{
     justify-content: space-around;
     display:flex;
 }
-li{background-color: green;}
-ul li{list-style-type: none;
-display: flex;}
+li{
+    background-color: green;
+}
+ul li{
+    list-style-type: none;
+}
+ul{display: flex;
+
+}
