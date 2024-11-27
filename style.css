@@ -50,7 +50,8 @@ top: 20px;
         display: flex;
         justify-content: center;
         align-items: center;
-        border: 2px solid #000;}
+        border: 2px solid #000
+        backgroun color(srgb red green blue);}
 
 main{
     display: flex;
