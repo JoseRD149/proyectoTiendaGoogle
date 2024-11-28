@@ -1,57 +1,138 @@
 <!DOCTYPE html>
-<html>
-    <head>
-<title>Tienda Google</title>
-    </head><link rel="stylesheet" href="style.css">
-    <body>
-        <header>
-            <nav>
-              <img src="recursos/google-logo.png" alt=""class="logo">
-                <ul>
-                    <li><a href="">Phone</a></li>
-                    <li><a href="">Earbuds</a></li>
-                    <li><a href="">Watches</a></li>
-                    <li><a href="">Smart Home</a></li>
-                    <li><a href="">Accessories</a></li> 
-                    <li><a href="">Subscriptions</a></li>
-                </ul>
-                <a><img src="recursos/Search.svg" alt=""></a>
-                <a><img src="recursos/Help.svg" alt=""></a>
-                <a><img src="recursos/Cart.svg" alt=""></a>
-                <a><img src="recursos/Avatar.svg" alt=""></a>
-            </nav>
-        </header>
-        <main>
-            <section class="seccion1"> 
-                <img src="recursos/FitbitPorcelana1.png" class="burbujitas">
-                <img src="recursos/FitbitPorcelana2.png" class="burbujitas">
-                <img src="recursos/FitbitPorcelana3.png" class="burbujitas">
-            </section>
-            <section class="seccion2">
-                <img src="recursos/pixelrosa4.png" class="imagencentral">
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tienda Google</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+        <nav class="navHeader">
+          <img src="recursos/google-logo.png" alt="Logo de Google" class="logo" />
+          <button class="menuHamburguesa" aria-label="Menu">
+            <img src="recursos/menu-icon.png" alt="Menú" />
+          </button>
+          <ul>
+            <li><a href="">Phone</a></li>
+            <li><a href="">Earbuds</a></li>
+            <li><a href="">Watches</a></li>
+            <li><a href="">Smart Home</a></li>
+            <li><a href="">Accessories</a></li>
+            <li><a href="">Subscriptions</a></li>
+          </ul>
+          <a href="" class="iconos"
+            ><img src="recursos/Search.svg" alt="Buscar"
+          /></a>
+          <a href="" class="iconos"
+            ><img src="recursos/Help.svg" alt="Ayuda"
+          /></a>
+          <a href="" class="iconos"
+            ><img src="recursos/Cart.svg" alt="Carrito"
+          /></a>
+          <a href="" class="iconos"
+            ><img src="recursos/Avatar.svg" alt="Avatar"
+          /></a>
+        </nav>
+      </header>
 
-            </section>
-            <section class="seccion3">
-                <div>
-                    <h1>nombre producto</h1>
-                    <p>solo es de prueba</p>
-                    <p>229€</p>
-                    <hr>
-<p>escoger color</p>
-<div class="colores"></div>
-<div class="colores"></div>
-<div class="colores"></div>
-<div class="colores"></div>
-<div class="colores"></div>
-<div class="colores"></div>
+    <main class="paginaProducto">
+      <section class="seccion1">
+        <div class="previas">
+          <img
+            src="recursos/FitbitPorcelana1.png"
+            class="burbujitas"
+            alt="Vista previa 1"
+          />
+          <img
+            src="recursos/FitbitPorcelana2.png"
+            class="burbujitas"
+            alt="Vista previa 2"
+          />
+          <img
+            src="recursos/FitbitPorcelana3.png"
+            class="burbujitas"
+            alt="Vista previa 3"
+          />
+        </div>
+        <div class="imagenProducto">
+          <img
+            src="recursos/FitbitPorcelana1.png"
+            class="imagencentral"
+            alt="Producto principal"
+          />
+        </div>
+      </section>
+      <section class="seccion2">
+        <h1>Fitbit</h1>
+        <p class="fuente">Hora & Tiempo</p>
+        <p>229€</p>
+        <hr />
+        <p class="fuente">Escoge color</p>
+        <div class="colores">
+          <span class="opcionColor" style="background-color: #363535"></span>
+          <span class="opcionColor" style="background-color: #d9d7d7"></span>
+          <span class="opcionColor" style="background-color: #d28860"></span>
+        </div>
+        <div class="carrito">
+          <h2>229€</h2>
+          <hr />
+          <input type="number" value="1" min="1" />
+          <button>Add to Cart</button>
+        </div>
+        <p class="entrega">Delivers 29 Apr to 08023</p>
+      </section>
+    </main>
 
-                </div>
-                <div></div>
-            </section>
-        </main>
-        <footer>
-           <a href="https://twitter.com/madebygoogle" target="_blank"> <img src="" alt=""></a>
-        </footer>
-    </body>
-    
+    <footer>
+      <div class="footer_div">
+        <!-- Redes sociales -->
+        <div class="footer_nav">
+          <nav class="navFooter">
+            <ul id="bar3">
+              <li>
+                <a href="https://www.instagram.com" target="_blank">
+                  <img class="social" src="recursos/ig.png" alt="Instagram" />
+                </a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com" target="_blank">
+                  <img class="social" src="recursos/fb.png" alt="Facebook" />
+                </a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com" target="_blank">
+                  <img class="social" src="recursos/yt.png" alt="YouTube" />
+                </a>
+              </li>
+              <li>
+                <a href="https://www.tiktok.com" target="_blank">
+                  <img class="social" src="recursos/tiktok.png" alt="TikTok" />
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/madebygoogle" target="_blank">
+                  <img class="social" src="recursos/x.png" alt="Twitter" />
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <!-- Bandera y enlaces legales -->
+        <div class="bandera">
+          <img class="iconoBandera" src="recursos/espana.png" alt="Bandera de España" />
+          <p class="fuente">Spain</p>
+          <div class="legal">
+            <a href="#">Privacy</a>
+            <a href="#">Google Nest Commitment to Privacy</a>
+            <a href="#">Sales Terms</a>
+            <a href="#">Terms of Service</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+  </body>
 </html>
